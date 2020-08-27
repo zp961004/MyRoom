@@ -1,0 +1,16 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: FEIGN-SERVER
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8759/eureka/
+#开启熔断器
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
