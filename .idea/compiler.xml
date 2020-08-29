@@ -10,6 +10,7 @@
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="feign-server" />
+        <module name="config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
